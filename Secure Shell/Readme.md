@@ -15,6 +15,8 @@ Pada file tersebut uncomment `permitRootLogin yes` dan `PasswordAuthentication y
 Kemudian save file tersebut, restart ssh dan cek status apakah ssh sudah berjalan.
 ```
 service sshd restart
+```
+```
 service sshd status
 ```
 ![](https://github.com/ridnrct/sysadminfp/blob/main/Secure%20Shell/ssh3.jpg)
