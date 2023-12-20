@@ -20,4 +20,5 @@ Tampilan pada web nantinya dapat dikonfigurasi atau dicoding pada file index.htm
 ```
 nano /var/www/html/index.html
 ```
+![](https://github.com/ridnrct/sysadminfp/blob/main/Web%20Server/web4.jpg)
 ![](https://github.com/ridnrct/sysadminfp/blob/main/Web%20Server/web3.jpg)
