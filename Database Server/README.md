@@ -22,5 +22,4 @@ systemctl start mysqld
 ```
 systemctl status mysqld
 ```
-![](https://github.com/ridnrct/sysadminfp/blob/main/Web%20Server/web4.jpg)
-![](https://github.com/ridnrct/sysadminfp/blob/main/Web%20Server/web3.jpg)
+![](https://github.com/ridnrct/sysadminfp/blob/main/Database%20Server/db1.jpg)
