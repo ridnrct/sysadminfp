@@ -7,12 +7,27 @@ Operating System CentOS 7 :
   4. Web Server
   5. Database Server
 
-Setelah semua service terinstall, memulai konfigurasi final project :
+Setelah semua service terinstall, memulai konfigurasi final project :&amp;
 Install php5 untuk support apache.
 ```
 yum -y install php php-mysql php-pdo php-gd php-mbstring
 ```
-Buat file index.php pada direktori /var/www/html
+Masuk pada mysql dengan user root dan password yang telah ditentukan sebelumnya.
+```
+mysql -u root -p
+```
+Buat user pada database mysql.
+```
+CREATE USER 'USER'@'localhost' IDENTIFIED BY 'PASSWD';
+```
+Tertulis "mahasiswa" karena nama dari database yang digunakan. Konfigurasi dibawah untuk memberikan ijin atas user ke database mahasiswa. 
+```
+GRANT ALL PRIVILEGES ON mahasiswa.* TO 'USER'@'localhost';
+```
+```
+FLUSH PRIVILEGES;
+```
+Buat file index.php pada direktori /var/www/html.
 ```
 nano /var/www/html/index.php
 ```
